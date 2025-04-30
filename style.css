@@ -1,0 +1,175 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: brown;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0,5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .h1a {
+    color: orange;
+  }
+
+  .author {
+    color: #666;
+  }
+  
+  .blog-posts article {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-posts h2 {
+    font-size: 1.8rem;
+  }
+  
+  .blog-posts .summary {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+
+  .tombol-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap; 
+  }
+  /* Tombol IG */
+  .tbl-ig {
+    background-color: #ec0075;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .tbl-ig:hover {
+    background-color: #666;
+  }
+
+  /* Tombol Yutub */
+  .tbl-yt {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+  }
+.tbl-yt:hover {
+  background-color: #666;
+}
+
+/* Tombol Linkedin */
+.tbl-ldn {
+  background-color: #006192;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 25px;
+  display: inline-block;
+}
+.tbl-ldn:hover {
+  background-color: #666;
+}
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    header nav ul {
+      text-align: center;
+      padding: 0;
+    }
+  
+    header nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .blog-posts article {
+      padding: 10px;
+    }
+  }
+
+  /*  Category */
+  .h1c {
+    color: red;
+    font-family: Gill Sans MT;
+  }
+
+  .cat1-conf {
+    text-decoration: none;
+    color: cornflowerblue;
+  }
+  .cat1-conf:hover {
+    color: red;
+  }
+  .cat2-conf {
+    text-decoration: none;
+    color: cornflowerblue;
+  }
+  .cat2-conf:hover {
+    color: red;
+  }
+
+  .cat-post {
+    text-decoration: none;
+    color: cornflowerblue;
+  }
+  .cat-post:hover {
+    color: red;
+  }
