@@ -171,15 +171,15 @@ body {
     text-decoration: none;
     color: cornflowerblue;
   }
- .cat-post1 {
+.cat-post1 {
     display: inline;
     text-decoration: none;
     color: cornflowerblue;
   }
- .cat-post2 {
+.cat-post2 {
     display: inline;
     text-decoration: none;
-    color: crimson;
+    color: cornflowerblue;
   }
   .cat-post:hover {
     color: red;
